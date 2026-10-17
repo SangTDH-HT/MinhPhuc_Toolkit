@@ -1,0 +1,23 @@
+name: Kiểm tra repo
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kiem-tra:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cấu trúc, liên kết, bí mật, phạm vi
+        run: python scripts/kiem_tra_repo.py
+      - name: Máy tính kỹ thuật
+        run: python -m unittest discover -s tools/tinh-toan/tests -v

@@ -1,0 +1,29 @@
+name: Báo thông tin sai
+description: Skill, biểu mẫu hoặc máy tính đang nói sai so với xưởng hay tiêu chuẩn
+title: "[Sai] "
+labels: ["sai sót"]
+body:
+  - type: input
+    id: cho-sai
+    attributes:
+      label: File hoặc skill
+      placeholder: skills/mp-to-song/references/loi-tam-va-xu-ly.md
+    validations:
+      required: true
+  - type: textarea
+    id: dang-ghi
+    attributes:
+      label: Đang ghi gì
+    validations:
+      required: true
+  - type: textarea
+    id: dung-la
+    attributes:
+      label: Đúng phải là
+    validations:
+      required: true
+  - type: textarea
+    id: bang-chung
+    attributes:
+      label: Bằng chứng
+      description: Số đo, ảnh tem nhãn, trang tài liệu, quyết định của xưởng

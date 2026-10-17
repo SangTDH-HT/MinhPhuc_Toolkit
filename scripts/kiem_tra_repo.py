@@ -88,6 +88,15 @@ def kiem_manifest() -> None:
                 bao("marketplace.json: tên plugin khác plugin.json")
 
 
+def kiem_phien_ban_readme() -> None:
+    """Huy hiệu phiên bản trong README phải trùng version của plugin.json."""
+    plugin = doc_json(ROOT / ".claude-plugin" / "plugin.json") or {}
+    readme = (ROOT / "README.md").read_text(encoding="utf-8") if (ROOT / "README.md").exists() else ""
+    m = re.search(r"phi%C3%AAn%20b%E1%BA%A3n-([0-9.]+)-", readme)
+    if m and m.group(1) != plugin.get("version"):
+        bao(f"README: huy hiệu phiên bản {m.group(1)} khác plugin.json {plugin.get('version')}")
+
+
 def doc_frontmatter(p: Path) -> dict | None:
     t = p.read_text(encoding="utf-8")
     if not t.startswith("---\n"):
@@ -218,6 +227,7 @@ def main() -> int:
     except (AttributeError, ValueError):
         pass
     kiem_manifest()
+    kiem_phien_ban_readme()
     ten = kiem_skill()
     kiem_router(ten)
     md = cac_file((".md",))

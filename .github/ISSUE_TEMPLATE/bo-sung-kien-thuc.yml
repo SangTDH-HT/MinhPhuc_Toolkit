@@ -1,0 +1,65 @@
+name: Bổ sung hoặc xác nhận kiến thức
+description: Có số liệu thật của xưởng, thông số đã kiểm, hoặc kiến thức mới cần đưa vào skill
+title: "[Kiến thức] "
+labels: ["kiến thức"]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill liên quan
+      options:
+        - minhphuc
+        - mp-cong-ty
+        - mp-san-pham-ket-cau
+        - mp-giay-nguyen-lieu
+        - mp-to-song
+        - mp-in-flexo
+        - mp-xuong-offset
+        - mp-be-dan
+        - mp-kcs-chat-luong
+        - mp-xu-ly-su-co
+        - mp-bao-tri
+        - mp-ke-hoach-san-xuat
+        - mp-mes-su-dung
+        - mp-an-toan-lao-dong
+        - mp-fsc-iso-attp
+        - mp-kho-giao-hang
+        - mp-ho-tro-kinh-doanh
+        - mp-tinh-toan
+        - mp-bieu-mau
+        - mp-dao-tao
+        - mp-cai-tien
+        - mp-thu-vien
+        - data/ (mã lỗi, máy móc, sóng…)
+    validations:
+      required: true
+  - type: textarea
+    id: noi-dung
+    attributes:
+      label: Nội dung
+      description: Ghi rõ máy, thông số, đơn vị. Ví dụ "Bảng chuẩn keo tổ sóng ca ngày: độ nhớt …, điểm gel …"
+    validations:
+      required: true
+  - type: dropdown
+    id: nguon
+    attributes:
+      label: Nguồn
+      options:
+        - "[MP] Đã xác nhận tại xưởng"
+        - "[MP-Web] / [MP-HSNL] Công ty công bố"
+        - "[Chuẩn] Tiêu chuẩn, tài liệu nghề"
+        - "[KN ngành] Kinh nghiệm chung, chưa kiểm"
+    validations:
+      required: true
+  - type: input
+    id: xac-nhan
+    attributes:
+      label: Ai xác nhận, ngày nào
+      description: Ghi vai trò (tổ trưởng tổ sóng, KCS…), không ghi số điện thoại
+  - type: checkboxes
+    id: pham-vi
+    attributes:
+      label: Kiểm phạm vi
+      options:
+        - label: Không có địa chỉ mạng, tài khoản, mật khẩu, giá, mã nguồn hay cấu hình phần mềm
+          required: true

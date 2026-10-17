@@ -59,4 +59,7 @@ description: >
 python scripts/kiem_tra_repo.py
 python -m unittest discover -s tools/tinh-toan/tests
 ```
-Cập nhật `CHANGELOG.md`; tăng `version` trong `.claude-plugin/plugin.json` khi phát hành bản mới.
+Cập nhật `CHANGELOG.md`; tăng `version` trong `.claude-plugin/plugin.json` (và huy hiệu phiên bản trong README) khi phát hành bản mới.
+
+Kiểm tra tự động trên GitHub: workflow soạn sẵn ở `.github/cho-bat/kiem-tra.yml`. Muốn bật thì cấp quyền workflow cho tài khoản đẩy
+(`gh auth refresh -h github.com -s workflow`), chuyển file vào thư mục `.github/workflows` rồi đẩy lên.

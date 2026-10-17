@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "minhphuc-toolkit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Bộ skill và kho kiến thức cho công việc kỹ thuật, sản xuất, KCS, bảo trì và vận hành tại Công ty TNHH Bao Bì Minh Phúc (thùng carton sóng, hộp in offset). Gồm sổ tay theo từng tổ máy, 127 mã lỗi của xưởng, tiêu chuẩn chất lượng, máy tính kỹ thuật, biểu mẫu và cách dùng MP MES ở phía người dùng.",
   "author": {
     "name": "Nguyễn Hữu Sáng"

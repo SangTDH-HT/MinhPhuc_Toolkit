@@ -1,5 +1,14 @@
 # Nhật ký thay đổi
 
+## 1.1.0 — 18/10/2026
+
+- Sửa đơn vị đếm theo quy ước MP MES mới nhất: máy in đo bằng tờ in (không nhân số con), chỉ máy bế nhân số con; tổ sóng ghi số dao,
+  số tấm = số dao × số tấm/khổ là "Sóng vào" của máy in; quy ước đối chiếu tấm sóng = tờ in = nhịp bế.
+- `mp-mes-su-dung`: thêm hướng dẫn Trợ lý trong MES và mục gộp phiếu giống hệt ở máy in.
+- Trang trí repo: banner mặt cắt tấm 5 lớp sóng BC (`assets/banner.svg`, vẽ bằng `scripts/ve_banner.py`), README mới có bản đồ skill theo dây chuyền,
+  huy hiệu, mẫu issue và PR, CODEOWNERS; workflow kiểm tra tự động soạn sẵn ở `.github/cho-bat/` (bật khi tài khoản đẩy có quyền workflow).
+- `scripts/kiem_tra_repo.py`: kiểm thêm huy hiệu phiên bản README khớp `plugin.json`.
+
 ## 1.0.0 — 17/10/2026
 
 Bản đầu tiên.
