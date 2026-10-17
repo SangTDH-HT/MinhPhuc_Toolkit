@@ -18,7 +18,8 @@ class KetQuaSanLuong:
 def san_luong(nhip: float, chay_truoc: float = 0.0, so_con: float = 1.0,
               ke_hoach: float | None = None, loi: float = 0.0) -> KetQuaSanLuong:
     """Luật MP MES: số nhịp thực hiện = nhịp máy + chạy trước (đều là NHỊP);
-    sản lượng = số nhịp thực hiện × số con — nhân MỘT lần ở bước cuối.
+    sản lượng = số nhịp thực hiện × số con — nhân MỘT lần ở bước cuối (máy bế).
+    Máy in đo bằng tờ in: dùng so_con = 1 (số con chỉ để quy ra thùng khi đối chiếu).
     Thừa/thiếu so với KẾ HOẠCH của máy (số máy sẽ chạy), không so số lượng đơn hàng.
     """
     if so_con <= 0:

@@ -25,7 +25,8 @@ may:
     tram: [Trạm sóng A/C/E, Trạm sóng B, Trạm ghép (đầu mền), Dao chặt]
     nang_luc_cong_bo: "Sóng B, C, A, E; sóng đôi BC, BE, BA; 150 m/phút"
     dem: nhát dao chặt (1 khổ)
-    don_vi_san_luong: tấm (= dao × số tấm/khổ)
+    don_vi_san_luong: "số dao (nhật ký); số tấm = số dao × số tấm/khổ — máy in lấy số tấm làm Sóng vào (từ 15/10/2026)"
+    ke_hoach_dem_theo: SL giấy tấm (= số nhát dao)
     don_vi_toc_do: m/phút
     o_loi_mes: [Đổ rách, Bong dộp, Dập sóng, Sáng biên, Sai quy cách, Sai kết cấu, Lỗi khác]
     tien_to_ma_loi: TS
@@ -40,8 +41,8 @@ may:
     nang_luc_cong_bo: "flexo 5 màu, 150 nhịp/phút (HSNL)"
     so_tram_muc_mes: 6
     ghi_chu: "HSNL ghi 5 màu, MES khai 6 trạm mực — cần xác nhận"
-    dem: nhịp
-    don_vi_san_luong: tấm (= nhịp × số con)
+    dem: nhịp (1 nhịp = 1 tờ in)
+    don_vi_san_luong: tờ in (không nhân số con; số con chỉ để quy ra thùng khi đối chiếu)
     don_vi_toc_do: nhịp/phút
     o_loi_mes: [Sóng, Thử máy, In lệch, Nhảy dao, Khác]
     tien_to_ma_loi: FX
@@ -57,8 +58,8 @@ may:
     to: Tổ in
     nang_luc_cong_bo: "flexo 5 màu, 150 nhịp/phút (HSNL)"
     so_tram_muc_mes: 6
-    dem: nhịp
-    don_vi_san_luong: tấm (= nhịp × số con)
+    dem: nhịp (1 nhịp = 1 tờ in)
+    don_vi_san_luong: tờ in (không nhân số con; số con chỉ để quy ra thùng khi đối chiếu)
     don_vi_toc_do: nhịp/phút
     o_loi_mes: [Sóng, Thử máy, In lệch, Nhảy dao, Khác]
     tien_to_ma_loi: FX

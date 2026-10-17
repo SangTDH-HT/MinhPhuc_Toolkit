@@ -7,7 +7,7 @@ Luật dưới đây là luật nghiệp vụ đã chốt khi đưa MP MES vào 
 | Nhóm | Thông tin |
 |---|---|
 | Nhận diện | STT, số đơn hàng, **phiếu sản xuất** (lệnh SX), khách hàng, mã hàng, tên hàng, kiểu sản phẩm, ghi chú, số PO |
-| Số lượng | SL đơn hàng, SL sản xuất (số tấm cần), SL giấy tấm, **SL mét dài**, **số tấm/khổ**, **dao chặt** (số nhát) |
+| Số lượng | SL đơn hàng, SL sản xuất, **SL giấy tấm** (= số **nhát dao** phải chặt — dao đếm theo cột này), **SL mét dài** (= SL giấy tấm × tổng dài), **số tấm/khổ**, cột dao chặt (hiện trên tab Đơn hàng, không dùng để đếm) |
 | Quy cách | Quy cách phủ bì, **quy cách cán lằn**, tổng dài, tổng rộng, **khổ giấy LT** (lý thuyết), **khổ giấy SD** (sử dụng) |
 | Kết cấu | Kiểu sóng; giấy từng lớp: **Mặt · B · Giữa · E · A · C · Đáy** |
 | Công đoạn | 7 cờ: Sóng · In · Bế · Bồi · Dán · Đóng kim · Khác (1 có / 0 không / trống chưa khai) |
@@ -51,14 +51,17 @@ người lập kế hoạch khi chọn khổ giấy, xem mục 7.
 
 ## 5. Chốt sổ và sửa nhật ký
 
-- Bản ghi tổ sóng có hai trạng thái: **0** = phần mềm vừa chốt tự động, chưa ai xác nhận · **1** = tổ trưởng đã nhập **số tấm thực** và chốt.
+- Bản ghi tổ sóng có hai trạng thái: **0** = phần mềm vừa chốt tự động, chưa ai xác nhận · **1** = tổ trưởng đã nhập **số thực** và chốt.
+- Nhật ký sóng: ô đầu là **Số dao** (số nhát đã chặt — như phần mềm cũ). Từ 15/10/2026 MES ghi thêm **số tấm** = số dao × số tấm/khổ;
+  máy in lấy số tấm này làm **"Sóng vào"** (bản ghi cũ chưa có thì tự nhân theo số tấm/khổ của kế hoạch). So kế hoạch, đối chiếu, trợ lý vẫn đo **dao**.
+  → Khi so sóng với in: so **tấm** với **tấm**, đừng so số dao với số tờ in.
 - **Vận hành được sửa nhật ký tổ sóng** (chốt 13/10/2026) — riêng tổ sóng; nhật ký máy in và thành phẩm vẫn do KCS sửa.
 - Đơn **vắt đêm**: đợi dao chặt xong đơn dở rồi mới sang kế hoạch ngày mới; nhật ký đơn vắt đêm ghi **ngày bắt đầu đơn**.
 - Phiếu nhận dạng tổ sóng tích các ô công đoạn theo 7 cờ của kế hoạch (Bồi đứng trước Bế trên tờ phiếu).
 
 ## 6. Thời gian và tốc độ
 
-- Tốc độ tổ sóng tính bằng **mét/phút** = mét dài ÷ tổng thời gian.
+- Tốc độ tổ sóng tính bằng **mét/phút** = mét dài (số dao × tổng dài tấm) ÷ tổng thời gian.
 - Tổng thời gian tổ sóng = **chạy + ngừng không kế hoạch (KOKH)**; ngừng có kế hoạch, bảo trì, nghỉ ca không vào tổng (chốt 02/10/2026).
 - Dừng ngắn dưới **30 giây** vẫn tính chạy (ân hạn); đứng quá 30 giây mới là ngừng.
 - Chi tiết 6 loại thời gian: skill `mp-ke-hoach-san-xuat`.

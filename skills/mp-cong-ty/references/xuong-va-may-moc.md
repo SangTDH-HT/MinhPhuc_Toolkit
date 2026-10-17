@@ -55,9 +55,9 @@ máy kéo (lực căng). Chi tiết: skill `mp-kcs-chat-luong`.
 
 | Máy | Mã máy trên kế hoạch/nhật ký | Tổ | Một lần đếm là | Sản lượng ghi bằng | Tốc độ ghi bằng | Ô lỗi trên MES |
 |---|---|---|---|---|---|---|
-| Tổ sóng (dây chuyền) | DS1 | Tổ sóng | một nhát dao chặt | tấm (= nhát × số tấm/khổ) | m/phút | Đổ rách · Bong dộp · Dập sóng · Sáng biên · Sai quy cách · Sai kết cấu · Lỗi khác |
-| Máy In 1 (flexo) | MI1 | Tổ in | một nhịp | tấm = nhịp × số con | nhịp/phút | Sóng · Thử máy · In lệch · Nhảy dao · Khác (ERP gọi "Ngoại quan") |
-| Máy In 2 (flexo) | MI2 | Tổ in | một nhịp | tấm = nhịp × số con | nhịp/phút | như Máy In 1 |
+| Tổ sóng (dây chuyền) | DS1 | Tổ sóng | một nhát dao chặt | số dao; số tấm = dao × số tấm/khổ | m/phút | Đổ rách · Bong dộp · Dập sóng · Sáng biên · Sai quy cách · Sai kết cấu · Lỗi khác |
+| Máy In 1 (flexo) | MI1 | Tổ in | một nhịp = một tờ in | tờ in (không nhân số con) | nhịp/phút | Sóng · Thử máy · In lệch · Nhảy dao · Khác (ERP gọi "Ngoại quan") |
+| Máy In 2 (flexo) | MI2 | Tổ in | một nhịp = một tờ in | tờ in (không nhân số con) | nhịp/phút | như Máy In 1 |
 | Máy In Offset | MI3 | Tổ in | một nhịp | tờ | nhịp/phút | như Máy In 1 |
 | Máy dán tự động 1 | DT1 | Tổ thành phẩm | một thùng | thùng (số con = 1) | nhịp/phút | Sóng · In · Bế · Định hình · Khác |
 | Máy dán tự động 2 | DT2 | Tổ thành phẩm | một thùng | thùng | nhịp/phút | như máy dán 1 |

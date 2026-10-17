@@ -18,7 +18,7 @@ Thời gian tổ máy làm chủ = pha mực + chạy máy + ngừng không kế
 - Tốc độ mục tiêu đặt trong Cài đặt từng trạm (Quản lý trở lên); số đang cài là **mặc định của phần mềm**, chưa phải định mức đã duyệt — cần chốt định mức
   theo máy và loại đơn (`docs/LO-TRINH.md`).
 
-Ví dụ một ngày Máy In 1: pha mực 60, chạy 300, KOKH 60 phút; 18.000 nhịp; mục tiêu 70 nhịp/phút; sản lượng 36.000 tấm, lỗi 360.
+Ví dụ một ngày Máy In 1: pha mực 60, chạy 300, KOKH 60 phút; 18.000 nhịp; mục tiêu 70 nhịp/phút; sản lượng 18.000 tờ, lỗi 180.
 → Sẵn sàng = 300/420 = 71,4 % · Hiệu năng = (18.000/300)/70 = 85,7 % · Chất lượng = 99,0 % · **OEE ≈ 60,6 %**.
 Tốc độ bình quân = 18.000/420 = 42,9 nhịp/phút = 61,2 % mục tiêu (= 71,4 % × 85,7 %). Máy tính: `python -m mptinh oee`.
 

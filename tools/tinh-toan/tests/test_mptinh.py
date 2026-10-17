@@ -103,7 +103,7 @@ class TestSanXuat(unittest.TestCase):
         self.assertEqual((kq.nhip_thuc_hien, kq.san_luong, kq.thua_thieu, kq.dat), (3000, 6000, 0, 5940))
 
     def test_oee_vi_du(self):
-        kq = san_xuat.oee(chay=300, kokh=60, nhip=18000, muc_tieu=70, san_luong_=36000, loi=360, pha_muc=60)
+        kq = san_xuat.oee(chay=300, kokh=60, nhip=18000, muc_tieu=70, san_luong_=18000, loi=180, pha_muc=60)
         self.assertAlmostEqual(kq.san_sang, 300 / 420)
         self.assertAlmostEqual(kq.hieu_nang, 60 / 70)
         self.assertAlmostEqual(kq.chat_luong, 0.99)
@@ -142,7 +142,7 @@ class TestCLI(unittest.TestCase):
             ("pallet", "--dai", "400", "--rong", "300", "--cao", "250", "--cao-toi-da", "1650"),
             ("aql", "--lo", "20000", "--aql", "1.5"),
             ("oee", "--chay", "300", "--kokh", "60", "--pha-muc", "60", "--nhip", "18000", "--muc-tieu", "70",
-             "--san-luong", "36000", "--loi", "360"),
+             "--san-luong", "18000", "--loi", "180"),
             ("san-luong", "--nhip", "2750", "--chay-truoc", "250", "--so-con", "2", "--ke-hoach", "6000"),
             ("kho-giay", "--rong-tam", "520", "--kho", "1600,1800"),
             ("do-am", "--rh", "80"),

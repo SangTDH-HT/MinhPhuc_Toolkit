@@ -15,7 +15,7 @@ Mỗi câu ghi cấp (2 / 3 / 4 theo khung NZQA) và chỗ tra trong repo. Dùng
 | A7 | 2 | Đèn Máy chủ đỏ thì làm gì? | Không tắt phần mềm, không đổi đơn, cứ chạy; có mạng lại lưu như thường; quá 10 phút báo Kỹ thuật | `mp-mes-su-dung` |
 | A8 | 3 | "Lỗi khác" gồm những nguồn nào? Nhóm nào không phải hàng hư? | 7 nguồn; nhóm 4 (tồn trước máy), 5 (chênh đếm), 6 (chuyển đi) không mất gì | `mp-xu-ly-su-co` |
 | A9 | 3 | Sáu nhóm nguyên nhân là gì? Câu hỏi chốt khi phân vân? | NVL · Máy móc – khuôn bản · Vận hành · Khâu trước · Kỹ thuật – kế hoạch · Kho – vận chuyển; "muốn không lặp lại thì phải sửa cái gì?" | `mp-xu-ly-su-co` |
-| A10 | 3 | Vì sao sản lượng phải tính "nhịp × số con" sau khi cộng Chạy trước? | Nhân trước rồi cộng làm hụt (số con − 1) × nhịp chạy trước | `mp-ke-hoach-san-xuat` |
+| A10 | 3 | Máy bế: vì sao phải nhân số con SAU khi cộng Chạy trước? Máy in có nhân số con không? | Nhân trước rồi cộng làm hụt (số con − 1) × nhịp chạy trước; máy in đo bằng tờ in, không nhân số con | `mp-ke-hoach-san-xuat` |
 | A11 | 4 | OEE theo định nghĩa Minh Phúc gồm gì? Mẫu số "thời gian tổ máy làm chủ" của máy in? | Sẵn sàng × Hiệu năng × Chất lượng; pha mực + chạy + KOKH | `mp-ke-hoach-san-xuat` |
 
 ## B. Tổ sóng

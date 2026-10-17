@@ -20,7 +20,8 @@ người phụ trách phần mềm (vai Kỹ thuật). Luật tính giờ, đơn
 | Thao tác ở máy in (In 1, In 2, Offset) — 7 bước, in 2 mặt, cán màng | [references/may-in.md](references/may-in.md) |
 | Thao tác ở máy thành phẩm (dán 1/2, bế 1/2, bồi) — Ngưng đơn, phiếu nhận dạng | [references/may-thanh-pham.md](references/may-thanh-pham.md) |
 | Thao tác ở tổ sóng — ba thẻ trạm, ghép đơn, dao tự chốt, xác nhận số tấm | [references/to-song.md](references/to-song.md) |
-| Máy Giám sát, vai và quyền, Trợ lý, báo cáo | [references/giam-sat-va-quyen.md](references/giam-sat-va-quyen.md) |
+| Máy Giám sát, vai và quyền, báo cáo | [references/giam-sat-va-quyen.md](references/giam-sat-va-quyen.md) |
+| Trợ lý trong MES: kiểu câu hỏi, đọc câu trả lời, thêm/sửa/xoá một dòng nhật ký | [references/tro-ly.md](references/tro-ly.md) |
 | Đèn, cảnh báo (36 mã), mất kết nối — làm gì | [references/canh-bao-va-su-co.md](references/canh-bao-va-su-co.md) |
 
 ## Bảng chức năng tóm tắt (MES 2.0)

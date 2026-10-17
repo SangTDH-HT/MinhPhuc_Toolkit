@@ -38,12 +38,13 @@ Mỗi đơn mới (ghi chú có chữ "mới") phải **chạy mẫu trước**;
 
 ```
 Số nhịp thực hiện = số máy đếm (nhịp) + "Chạy trước" (nhịp, thợ gõ — phần bộ đếm không có)
-Số tấm            = số nhịp thực hiện × số con          (nhân một lần, ở cuối)
+Sản lượng         = số nhịp thực hiện = số TỜ IN        (không nhân số con; cột số lượng cộng thêm tờ thử máy)
 Tốc độ            = số nhịp ÷ tổng thời gian            (nhịp/phút — so được với tốc độ thiết kế)
 ```
 
 - Ô **Chạy trước** là **nhịp**, không phải tấm; Start **không** xoá bộ đếm — gõ thêm phần đã có trên bộ đếm là đếm hai lần.
-- "SP lệch" = sóng vào − (sản xuất + chạy trước) − tổng lỗi; số **sóng vào** lấy từ nhật ký tổ sóng (thợ in không gõ).
+- Số con chỉ dùng để quy ra thùng khi đối chiếu với máy bế/dán; lỗi gõ theo **tờ in**, không nhân số con.
+- "SP lệch" = sóng vào − số nhịp − tổng lỗi; **sóng vào** = số tấm của tổ sóng (số dao × số tấm/khổ), lấy từ nhật ký tổ sóng (thợ in không gõ).
 - Máy đủ số lượng → hộp tự lưu (đếm ngược); bấm **Lưu đơn** = **xong đơn** dù thiếu số. Muốn chạy tiếp hôm sau dùng **Chuyển ngày**.
 
 ## 5. Đơn in 2 mặt [MP-MES, chốt 12/10/2026]

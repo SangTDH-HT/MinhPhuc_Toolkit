@@ -40,10 +40,12 @@ Máy một mặt gồm: giá cuộn, trục sóng, trục ép, lô gia nhiệt, 
 
 | Đại lượng | Nghĩa |
 |---|---|
-| Dao (nhát dao) | Một lần dao cắt ngang chặt = một **khổ** đầy |
+| Dao (nhát dao) | Một lần dao cắt ngang chặt = một **khổ** đầy ("tấm giấy" khổ đầy theo cách gọi của kế hoạch) |
 | Số tấm/khổ | Một nhát dao ra mấy tấm (số đường cắt dọc) |
-| Số tấm | = số dao × số tấm/khổ |
-| Mét dài | Chiều dài giấy chạy qua — dùng tính tốc độ (m/phút) và mét lỗi |
+| SL giấy tấm (kế hoạch) | Số **nhát dao** phải chặt — dao đếm tới số này thì tự chốt đơn |
+| Số dao (nhật ký sóng) | Số nhát đã chặt; so kế hoạch, đối chiếu, mét, tốc độ tổ sóng đều đo theo **dao** |
+| Số tấm thực | = số dao × số tấm/khổ — số tấm rời sang máy in (máy in lấy làm "Sóng vào"; MES ghi thêm cột này từ 15/10/2026) |
+| Mét dài | = số dao × tổng dài tấm — dùng tính tốc độ (m/phút) và mét lỗi |
 | Khổ giấy LT / SD | Khổ giấy lý thuyết / khổ giấy sử dụng thực (cột trên kế hoạch) |
 | Tổng dài × tổng rộng | Kích thước tấm (phủ bì tấm) |
 | Quy cách phủ bì, quy cách cán lằn | Kích thước tấm và vị trí các lằn do dao cắt dọc – cán lằn tạo |

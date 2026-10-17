@@ -37,7 +37,7 @@ Nguồn: file mổ xẻ "Lỗi khác" của xưởng (10/2026) [MP].
 
 | Đọc | Lưu ý |
 |---|---|
-| So tấm sóng giao với tấm máy in nhận | Cùng **đơn vị tấm** (sóng = dao × tấm/khổ; in = nhịp × số con) |
+| So tấm sóng giao với tấm máy in nhận | Cùng **đơn vị tấm** (sóng: số tấm = số dao × số tấm/khổ — không dùng số dao; in: tờ in = nhịp, không nhân số con) |
 | So máy in với thành phẩm | Thành phẩm có thể ra **con** (bế) hoặc **thùng** (dán) — quy đổi theo số con |
 | Đơn chưa xong | Đừng kết luận chênh; còn tồn trước máy |
 | Đơn ngưng, chuyển ngày, chạy 2 lần | Cộng mọi bản ghi của phiếu |

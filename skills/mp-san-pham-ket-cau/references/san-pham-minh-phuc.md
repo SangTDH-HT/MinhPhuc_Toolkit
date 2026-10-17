@@ -25,8 +25,8 @@ tráng metalize · ép kim · dập nổi · đóng mắt cáo · túi giấy c�
 
 | Đơn vị sản phẩm | Ở đâu |
 |---|---|
-| **tấm** | tổ sóng, máy in flexo (tấm = nhịp × số con), máy bồi |
-| **tờ** | máy in offset |
+| **tấm** | tổ sóng (số tấm = số dao × số tấm/khổ), máy bồi |
+| **tờ in** | máy in flexo, máy in offset (1 nhịp = 1 tờ, không nhân số con) |
 | **con** | máy bế (con = nhịp × số con) |
 | **thùng** | máy dán |
 

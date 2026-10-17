@@ -239,7 +239,7 @@ def tao_parser() -> argparse.ArgumentParser:
     s.add_argument("--loi", type=float, default=0.0)
     s.set_defaults(ham=lenh_oee)
 
-    s = sub.add_parser("san-luong", help="Sản lượng theo luật MES (nhịp × số con)")
+    s = sub.add_parser("san-luong", help="Sản lượng theo luật MES (máy bế: nhịp × số con; máy in: --so-con 1)")
     s.add_argument("--nhip", type=float, required=True)
     s.add_argument("--chay-truoc", type=float, default=0.0)
     s.add_argument("--so-con", type=float, default=1.0)

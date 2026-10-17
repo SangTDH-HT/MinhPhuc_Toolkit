@@ -60,7 +60,7 @@ Xếp theo lỗi thường gặp của ngành, **chưa có số đếm thật**:
 3. Hao hụt kỹ thuật (tờ thử, canh máy, chuyển đơn) → ô **Thử máy** (máy in) hoặc ghi riêng là hao hụt — không tính lỗi.
 4. Không phải hàng hư (tồn trước máy, chênh đếm, KCS lấy mẫu, mượn tấm) → **không ghi lỗi**; ghi rõ số lượng và đi đâu trong ghi chú.
 
-Tổ sóng nhập lỗi **theo dao** (lưu × số tấm/khổ); máy in nhập theo tấm (số đã nhân số con); thành phẩm theo sản phẩm của máy.
+Tổ sóng nhập lỗi **theo dao** (lưu × số tấm/khổ); máy in nhập theo tờ in (không nhân số con); thành phẩm theo sản phẩm của máy (bế: con, dán: thùng, bồi: tấm).
 
 ## 5. Phiếu đếm "Lỗi khác"
 

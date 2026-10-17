@@ -4,7 +4,7 @@ description: >
   Máy tính kỹ thuật của repo (Python thuần, tools/tinh-toan, lệnh python -m mptinh): BCT yêu cầu S.F × (n − 1) × W, McKee BCT ↔ ECT,
   ECT từ SCT giấy (Maltenfort–Seth), ảnh hưởng độ ẩm, định lượng tấm theo cấu trúc giấy và hệ số co sóng, khoảng cách lằn và phôi thùng RSC 0201,
   diện tích và khối lượng thùng, CBM và số thùng trong container 20'/40'/40HC, số thùng mỗi lớp pallet, cỡ mẫu AQL, sản lượng theo luật MP MES
-  (nhịp × số con, chạy trước), OEE theo định nghĩa Minh Phúc, số tấm trên khổ giấy và hao biên, Pareto từ CSV. Dùng khi cần một con số tính
+  (máy bế: nhịp × số con; máy in: tờ in; chạy trước), OEE theo định nghĩa Minh Phúc, số tấm trên khổ giấy và hao biên, Pareto từ CSV. Dùng khi cần một con số tính
   đúng công thức và đúng đơn vị — thay vì nhẩm.
 ---
 
@@ -35,8 +35,8 @@ Cần Python ≥ 3.9, không cần cài thư viện. Kiểm tra: `python -m unit
 | `cbm` | CBM, số thùng container | `--dai 40 --rong 30 --cao 30` → 0,036 m³; 779 / 1.581 / 1.794 thùng |
 | `pallet` | Thùng mỗi lớp, số lớp, tổng | `--dai 400 --rong 300 --pallet 1200x800 --cao 250 --cao-toi-da 1650` → 8/lớp, 6 lớp, 48 |
 | `aql` | Cỡ mẫu, số chấp nhận | `--lo 20000 --aql 1.5` → 80 mẫu, Ac 3 |
-| `san-luong` | Luật MES: nhịp thực hiện, sản lượng, thừa/thiếu | `--nhip 2750 --chay-truoc 250 --so-con 2 --ke-hoach 6000` → 6.000, đủ |
-| `oee` | OEE Minh Phúc | `--chay 300 --kokh 60 --pha-muc 60 --nhip 18000 --muc-tieu 70 --san-luong 36000 --loi 360` → 60,6 % |
+| `san-luong` | Luật MES: nhịp thực hiện, sản lượng, thừa/thiếu (máy in: `--so-con 1`) | Máy bế 2 con: `--nhip 2750 --chay-truoc 250 --so-con 2 --ke-hoach 6000` → 6.000 con, đủ |
+| `oee` | OEE Minh Phúc | `--chay 300 --kokh 60 --pha-muc 60 --nhip 18000 --muc-tieu 70 --san-luong 18000 --loi 180` → 60,6 % |
 | `kho-giay` | Số tấm/khổ, hao biên | `--rong-tam 520 --kho 1600,1800 --bien 20` |
 | `pareto` | Pareto từ CSV (cột `ma`, `so_luong`) | `--file phieu-dem.csv` |
 

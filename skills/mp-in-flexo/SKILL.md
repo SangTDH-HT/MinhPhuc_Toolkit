@@ -5,7 +5,7 @@ description: >
   cấu tạo trạm in, lên bản, canh tâm, canh chồng màu, tờ đầu, mực gốc nước (pH 8,5–9,5, độ nhớt 20–25 s cốc Ford 4, bọt),
   trục anilox (BCM, vệ sinh, 10 điều giữ tuổi thọ), bản photopolymer và băng dán, áp in "vừa chạm", in ép bẹp sóng,
   24 mã lỗi FX-01…FX-24 của xưởng và bảng tra lỗi Sun Chemical (nhoè, mờ, bít chữ, viền quầng, sọc, chồng mực kém…),
-  đơn in 2 mặt, đơn cán màng hai lượt, mã bảng in BI + mã sản phẩm, đếm nhịp × số con. Dùng khi chạy máy in, xử lý lỗi in,
+  đơn in 2 mặt, đơn cán màng hai lượt, mã bảng in BI + mã sản phẩm, đếm theo tờ in (nhịp). Dùng khi chạy máy in, xử lý lỗi in,
   duyệt màu, đào tạo thợ in, đọc số liệu tổ in.
 ---
 

@@ -66,7 +66,23 @@ Tích **In 2 mặt** ở tờ phiếu (ghi chú có "in 2 mặt"/"hai mặt" th�
 (phần mềm dừng máy, số về 0, "nhịp mặt 2") → lật chồng, thay bản, mực → Chạy máy → mặt 2 đủ số → lưu **một bản ghi**. Quên tích: nút **In 2 mặt**
 trên dải nút hoặc **In tiếp mặt 2** trong hộp "Đơn đã chạy đủ". Sang nhầm: **Về mặt 1**.
 
-## 9. Tình huống hay gặp
+## 9. Gộp phiếu giống hệt — chạy liền không dừng
+
+Khi kế hoạch tách một mặt hàng thành nhiều phiếu **giống hệt** (cùng mã hàng, tên hàng, khách, quy cách, số con và cả sáu màu — chỉ khác số phiếu), thẻ đơn
+mang nhãn **GỘP ĐƯỢC +n**. Tích phiếu chạy trước → tờ phiếu có khối hồng **CHẠY GỘP ĐƯỢC VỚI n ĐƠN KHÁC** → bấm ô các phiếu muốn chạy liền → **Chạy liền
+n đơn** → về Trang chủ bấm Chạy máy. Phiếu đầu đủ số thì phần mềm **tự ghi sổ** phiếu đó và sang phiếu sau, máy không dừng ("Xong phiếu … · sang …").
+Phiếu cuối: Tạm dừng → lý do → Lưu đơn.
+
+| Khoản | Tính vào phiếu nào |
+|---|---|
+| Số lượng phiếu giữa lượt | Đúng số kế hoạch, 0 lỗi — chốt lúc chạy đủ |
+| Nhịp dôi ra, lỗi, thừa thiếu | Dồn hết vào **phiếu cuối** |
+| Pha mực đầu lượt · Chạy trước | Phiếu đầu |
+| Ngừng máy | Phiếu đang chạy lúc dừng |
+
+Phần mềm chỉ **gợi ý**, không tự gộp — nhìn kỹ số phiếu (gộp nhầm là hai dòng nhật ký mang số không có thật). Thôi gộp giữa chừng: bấm Lưu đơn.
+
+## 10. Tình huống hay gặp
 
 | Thấy gì | Làm gì |
 |---|---|

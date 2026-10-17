@@ -32,7 +32,7 @@ nếu không sẽ so "tấm" với "nhịp", "ngày" với "phiếu", và kết 
 4. Máy đứng **quá 30 giây** mới là ngừng; dưới 30 giây vẫn là chạy.
 5. **Bấm Start = hết chuẩn bị**; chưa chọn đơn hoặc chưa Start là **pha mực/chuẩn bị** (máy in); **hết đơn** là **ngừng có kế hoạch**.
 6. Tốc độ = **nhịp ÷ tổng thời gian tính tốc độ** (máy in: chạy + KOKH + pha mực; TP: chạy + KOKH; sóng: mét ÷ (chạy + KOKH)).
-7. Sản lượng = **nhịp × số con** — nhân một lần, ở bước cuối; ô **Chạy trước** là **nhịp**.
+7. Máy in đo bằng **tờ in** (1 nhịp = 1 tờ, không nhân số con); máy bế: sản phẩm = **nhịp × số con**, nhân một lần ở bước cuối; ô **Chạy trước** là **nhịp**.
 8. Thừa/thiếu so với **kế hoạch của máy** (số máy sẽ chạy), không so số lượng đơn hàng.
 9. Đối chiếu công đoạn tính **theo phiếu khi đơn đã xong**, cùng một đơn vị — không theo ngày.
 10. Gộp chỉ số nhiều đơn: **cộng tử rồi chia**, không lấy trung bình các tỷ lệ.
