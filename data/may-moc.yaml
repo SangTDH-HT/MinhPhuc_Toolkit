@@ -1,0 +1,212 @@
+# Máy móc Bao Bì Minh Phúc — dữ liệu máy đọc được.
+# Nguồn: hồ sơ năng lực 2025 [MP-HSNL], web [MP-Web], cấu hình và luật MP MES 2.0 (10/2026) [MP-MES].
+# Trường "hang", "model", "nam_sx" để null khi CHƯA XÁC NHẬN — cập nhật sau khảo sát tem nhãn (templates/khao-sat-tem-nhan-may.md).
+# Không ghi địa chỉ mạng, tài khoản, cấu hình điều khiển vào file này.
+
+cap_nhat: 2026-10-17
+
+xuong:
+  - ma: flexo
+    ten: Xưởng flexo
+    dien_tich_m2: 6000
+    dong_chay: [kho giấy cuộn, tổ sóng, máy in flexo (lằn + xẻ rãnh), máy bế, máy dán / đóng kim, KCS, đóng kiện, kho thành phẩm]
+  - ma: offset
+    ten: Xưởng offset
+    dien_tich_m2: 2000
+    tu_nam: 2022-08
+    dong_chay: [máy xén, máy in offset, gia công bề mặt, máy bồi, bế phẳng, dán, KCS]
+
+may:
+  - ten: Dây chuyền tạo sóng
+    xuong: flexo
+    so_luong: 1
+    ma_mes: DS1
+    to: Tổ sóng
+    tram: [Trạm sóng A/C/E, Trạm sóng B, Trạm ghép (đầu mền), Dao chặt]
+    nang_luc_cong_bo: "Sóng B, C, A, E; sóng đôi BC, BE, BA; 150 m/phút"
+    dem: nhát dao chặt (1 khổ)
+    don_vi_san_luong: tấm (= dao × số tấm/khổ)
+    don_vi_toc_do: m/phút
+    o_loi_mes: [Đổ rách, Bong dộp, Dập sóng, Sáng biên, Sai quy cách, Sai kết cấu, Lỗi khác]
+    tien_to_ma_loi: TS
+    hang: null
+    model: null
+    nam_sx: null
+
+  - ten: Máy In 1 (flexo, printer-slotter)
+    xuong: flexo
+    ma_mes: MI1
+    to: Tổ in
+    nang_luc_cong_bo: "flexo 5 màu, 150 nhịp/phút (HSNL)"
+    so_tram_muc_mes: 6
+    ghi_chu: "HSNL ghi 5 màu, MES khai 6 trạm mực — cần xác nhận"
+    dem: nhịp
+    don_vi_san_luong: tấm (= nhịp × số con)
+    don_vi_toc_do: nhịp/phút
+    o_loi_mes: [Sóng, Thử máy, In lệch, Nhảy dao, Khác]
+    tien_to_ma_loi: FX
+    kho_ban: BI
+    chuyen_don_duoc_sang: [MI2]
+    hang: null
+    model: null
+    nam_sx: null
+
+  - ten: Máy In 2 (flexo, printer-slotter)
+    xuong: flexo
+    ma_mes: MI2
+    to: Tổ in
+    nang_luc_cong_bo: "flexo 5 màu, 150 nhịp/phút (HSNL)"
+    so_tram_muc_mes: 6
+    dem: nhịp
+    don_vi_san_luong: tấm (= nhịp × số con)
+    don_vi_toc_do: nhịp/phút
+    o_loi_mes: [Sóng, Thử máy, In lệch, Nhảy dao, Khác]
+    tien_to_ma_loi: FX
+    kho_ban: BI
+    chuyen_don_duoc_sang: [MI1]
+    hang: null
+    model: null
+    nam_sx: null
+
+  - ten: Máy in flexo 5 màu in process
+    xuong: flexo
+    ma_mes: null
+    nang_luc_cong_bo: "250 sản phẩm/phút (chỉ HSNL nêu)"
+    ghi_chu: "Chưa có trên MES — cần xác nhận có đang dùng"
+
+  - ten: Máy In Offset 5 màu
+    xuong: offset
+    ma_mes: MI3
+    to: Tổ in
+    hang: Mitsubishi
+    model: null
+    nam_sx: null
+    nang_luc_cong_bo: "250 tờ/phút"
+    so_tram_muc_mes: 5
+    nut_start_ngoai_may: false
+    dem: nhịp
+    don_vi_san_luong: tờ
+    don_vi_toc_do: nhịp/phút
+    o_loi_mes: [Sóng, Thử máy, In lệch, Nhảy dao, Khác]
+    tien_to_ma_loi: OF
+    kho_ban: BK
+    chuyen_don_duoc_sang: []
+
+  - ten: Máy bế tự động 1 (bế phẳng)
+    xuong: flexo
+    ma_mes: BF1
+    to: Tổ thành phẩm
+    nang_luc_cong_bo: "3.500 nhịp/giờ (HSNL — máy 1)"
+    ghi_chu: "Ghép công suất HSNL theo số thứ tự máy — cần xác nhận"
+    dem: nhịp dao
+    don_vi_san_luong: con (= nhịp × số con)
+    don_vi_toc_do: nhịp/phút
+    o_loi_mes: [Sóng, In, Bế, Định hình, Khác]
+    tien_to_ma_loi: BE
+    kho_khuon: KB
+    phieu_nhan_dang: false
+    chuyen_don_duoc_sang: [BF2]
+    hang: null
+    model: null
+    nam_sx: null
+
+  - ten: Máy bế tự động 2 (bế phẳng)
+    xuong: flexo
+    ma_mes: BF2
+    to: Tổ thành phẩm
+    nang_luc_cong_bo: "5.500 nhịp/giờ (HSNL — máy 2)"
+    dem: nhịp dao
+    don_vi_san_luong: con (= nhịp × số con)
+    don_vi_toc_do: nhịp/phút
+    o_loi_mes: [Sóng, In, Bế, Định hình, Khác]
+    tien_to_ma_loi: BE
+    kho_khuon: KB
+    phieu_nhan_dang: false
+    chuyen_don_duoc_sang: [BF1]
+    hang: null
+    model: null
+    nam_sx: null
+
+  - ten: Máy bế tròn tự động
+    xuong: flexo
+    ma_mes: null
+    nang_luc_cong_bo: "150 nhịp/phút (chỉ HSNL nêu)"
+
+  - ten: Máy dán tự động 1 (folder-gluer)
+    xuong: flexo
+    ma_mes: DT1
+    to: Tổ thành phẩm
+    nang_luc_cong_bo: "150 m/phút (HSNL, một máy dán)"
+    nut_start_ngoai_may: false
+    dem: thùng
+    don_vi_san_luong: thùng
+    don_vi_toc_do: nhịp/phút
+    o_loi_mes: [Sóng, In, Bế, Định hình, Khác]
+    tien_to_ma_loi: DA
+    phieu_nhan_dang: true
+    chuyen_don_duoc_sang: [DT2]
+    hang: null
+    model: null
+    nam_sx: null
+
+  - ten: Máy dán tự động 2 (folder-gluer)
+    xuong: flexo
+    ma_mes: DT2
+    to: Tổ thành phẩm
+    ghi_chu: "Thêm vào MES 9/2026; HSNL chỉ nêu 1 máy dán ở xưởng flexo — cần xác nhận"
+    dem: thùng
+    don_vi_san_luong: thùng
+    don_vi_toc_do: nhịp/phút
+    o_loi_mes: [Sóng, In, Bế, Định hình, Khác]
+    tien_to_ma_loi: DA
+    phieu_nhan_dang: true
+    chuyen_don_duoc_sang: [DT1]
+
+  - ten: Máy bồi tự động
+    xuong: offset
+    ma_mes: BOI
+    to: Tổ thành phẩm
+    hang: null
+    model: YB-1300E
+    nang_luc_cong_bo: "≥ 56.000 sản phẩm/8 giờ"
+    dem: tấm
+    don_vi_san_luong: tấm
+    don_vi_toc_do: nhịp/phút
+    o_loi_mes: [Sóng, In, Bế, Định hình, Khác]
+    tien_to_ma_loi: BO
+    phieu_nhan_dang: false
+    chuyen_don_duoc_sang: []
+
+  - ten: Máy xén
+    xuong: offset
+    ma_mes: null
+    hang: null
+    model: 115SC
+    nang_luc_cong_bo: "45 lần/phút"
+
+  - ten: Máy cán màng nhiệt
+    xuong: offset
+    ma_mes: null
+    ghi_chu: "ERP: công đoạn MB – Cán màng bóng"
+
+  - ten: Máy in kỹ thuật số
+    xuong: flexo
+    ma_mes: null
+    nang_luc_cong_bo: "≥ 2.000 m²/8 giờ — làm mẫu, đơn ít"
+
+  - ten: Máy bế phẳng (xưởng offset)
+    xuong: offset
+    ma_mes: null
+
+  - ten: Máy dán tự động (xưởng offset)
+    xuong: offset
+    ma_mes: null
+
+phong_qc: [máy nén thùng BCT, máy nén cạnh ECT, máy nén vòng RCT, máy bục, dụng cụ Cobb, cân định lượng, máy kéo]
+
+kho_khuon_ban:
+  BI: Bảng in flexo (Máy In 1, 2)
+  BK: Bản kẽm offset (Máy In Offset)
+  KB: Khuôn bế (máy bế)
+
+cong_doan_ke_hoach: [Sóng, In, Bế, Bồi, Dán, Đóng kim, Khác]

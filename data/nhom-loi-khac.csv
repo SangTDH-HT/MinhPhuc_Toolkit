@@ -1,0 +1,8 @@
+"nhom","ten","vi_du","hu_that","cach_tach","ai_lo"
+"1","Lỗi thật chưa có tên ô","Cong vênh, nhòe mực, bế không đứt, bung mép dán…","Có","Thợ ghi theo mã lỗi; lỗi nhiều nhất thành ô riêng trên MES","Thợ máy, KCS"
+"2","Lỗi đã có ô nhưng nhập thiếu / không nhập","Tấm sóng hư bị loại trước khi in mà không ghi ô Sóng; tờ in lệch không đếm vào ô In lệch","Có (ghi sai chỗ)","So Lỗi khác với các ô đã có; nhắc thợ nhập đúng ô","Thợ máy, KCS"
+"3","Hao hụt kỹ thuật không ghi","Tờ thử máy, canh màu, tấm đầu đơn, đoạn chuyển đơn / ghép đơn","Có (có chủ đích)","Ghi vào Thử máy / hao hụt kỹ thuật, không tính là lỗi","Thợ máy"
+"4","Hàng chưa chạy, còn tồn trước máy","Sóng giao hôm nay, mai mới in; đơn chạy dở, Chuyển ngày, Ngưng đơn","Không","Tính chênh theo phiếu khi đơn đã xong, không theo ngày","Phần mềm"
+"5","Chênh do cách đếm","Sóng đếm theo dao × tấm/khổ, máy in đếm nhịp; máy bế đếm đôi; cảm biến sót; số con; làm tròn","Không","Soát bộ đếm và số con; máy bế bật cảm biến nhíp chống đếm đôi","Kỹ thuật"
+"6","Hàng chuyển đi chỗ khác","KCS lấy mẫu; mượn tấm sang đơn khác; chạy bù; trả lại tổ sóng; lẫn đơn","Không","Ghi rõ số lượng và chuyển đi đâu (ghi chú bản ghi)","KCS, Quản lý"
+"7","Thất lạc / hư khi vận chuyển","Hư khi vận chuyển, ngã pallet, ướt kho, mất","Có (cần truy)","Phần còn lại sau khi trừ nhóm 1–6; lớn bất thường thì truy theo phiếu","Quản lý"

@@ -1,0 +1,128 @@
+ma,may,nhom_loi,ten,nhan_biet,nguyen_nhan,khau,xu_ly,o_mes,phong_ngua,nhom_loi_khac,top6
+TS-01,Tổ sóng,Giấy cuộn,"Giấy cuộn ướt, ẩm","Tấm mềm, loang ẩm, dễ bong lớp","Cuộn để nơi ẩm, mưa dột, kê sát nền",Nguyên liệu,Loại bỏ,Lỗi khác,"Kê pallet, che bạt; đo ẩm trước khi lên máy",1,
+TS-02,Tổ sóng,Giấy cuộn,"Rách mép, móp cuộn","Mép giấy rách, gãy trong tấm","Kẹp cuộn mạnh, va đập khi vận chuyển",Nguyên liệu,Cắt bỏ phần hư,Đổ rách,Kẹp đúng lực; xếp cuộn đứng,2,
+TS-03,Tổ sóng,Giấy cuộn,Sai loại giấy / định lượng,"Tấm mỏng, yếu; màu giấy khác",Lấy nhầm cuộn,Nguyên liệu,Loại bỏ,Sai kết cấu,Dán nhãn cuộn rõ; soát kết cấu trước khi chạy,2,
+TS-04,Tổ sóng,Giấy cuộn,Mối nối giấy lọt vào tấm,Vết băng keo nối; tấm dày cục bộ,Không cắt bỏ đoạn nối khi nối cuộn,Tại máy,Loại bỏ,Lỗi khác,Đánh dấu và cắt bỏ tấm có mối nối,1,5
+TS-05,Tổ sóng,Giấy cuộn,Lẫn giấy khác màu,Một phần tấm khác màu,Nối nhầm cuộn khác màu,Tại máy,Loại bỏ,Lỗi khác,Soát màu cuộn trước khi nối,1,
+TS-06,Tổ sóng,Sóng,Sóng nghiêng / ngã,Đỉnh sóng ngã một phía; tấm yếu,Trục sóng mòn; lực căng giấy,Tại máy,Loại bỏ,Lỗi khác,Kiểm trục sóng định kỳ,1,
+TS-07,Tổ sóng,Sóng,"Sóng cao thấp, không đều",Độ dày tấm không đều,Trục mòn; hơi / áp ép không đều,Tại máy,Loại bỏ,Lỗi khác,"Kiểm áp hơi, trục ép",1,
+TS-08,Tổ sóng,Sóng,"Sóng bể, xẹp",Sóng bị đè bẹp,Lực ép lớn; trục ép,Tại máy,Loại bỏ,Dập sóng,Chỉnh áp ép theo loại sóng,2,
+TS-09,Tổ sóng,Keo,"Thiếu keo, bong lớp",Lớp mặt tách khỏi sóng,"Keo ít, keo loãng; nhiệt thấp",Tại máy,Loại bỏ,Bong dộp,Kiểm độ nhớt keo mỗi ca,2,
+TS-10,Tổ sóng,Keo,"Dư keo, keo tràn","Đốm keo, vệt keo; mặt cứng",Lượng keo cao,Tại máy,Chọn lại,Lỗi khác,Chỉnh khe trục keo,1,
+TS-11,Tổ sóng,Keo,Keo chưa chín / tấm ướt,"Tấm mềm, ẩm; bong khi xếp",Nhiệt bàn sấy thấp; chạy nhanh,Tại máy,Để khô hoặc loại,Lỗi khác,Giữ nhiệt bàn sấy; giảm tốc khi giấy dày,1,4
+TS-12,Tổ sóng,Hình dạng tấm,Cong lên / cong xuống,Tấm không nằm phẳng,Chênh ẩm giữa mặt và đáy; nhiệt,Tại máy,Ép phẳng hoặc loại,Lỗi khác,Cân nhiệt / ẩm hai lớp mặt,1,1
+TS-13,Tổ sóng,Hình dạng tấm,"Cong chữ S, xoắn",Tấm vặn hai đầu,Lực căng giấy không đều,Tại máy,Loại bỏ,Lỗi khác,Chỉnh phanh cuộn,1,
+TS-14,Tổ sóng,Hình dạng tấm,Phồng rộp,"Bọt khí giữa các lớp, ấn vào lún",Thiếu keo cục bộ; hơi nước,Tại máy,Loại bỏ,Lỗi khác,"Kiểm trục keo, nhiệt",1,2
+TS-15,Tổ sóng,Hình dạng tấm,Nhăn mặt giấy,Nếp nhăn trên mặt tấm,Lực căng giấy; trục dẫn lệch,Tại máy,Loại bỏ,Lỗi khác,"Chỉnh trục dẫn, lực căng",1,3
+TS-16,Tổ sóng,Hình dạng tấm,Sọc vằn mặt (lộ sóng),Mặt gợn theo đỉnh sóng,Giấy mặt mỏng; ép quá tay,Tại máy,Chọn lại,Lỗi khác,Giảm áp ép với giấy mỏng,1,
+TS-17,Tổ sóng,"Cán lằn, xả biên",Lằn cấn lệch,Lằn sai vị trí,Cài đặt bánh cán,Tại máy,Loại bỏ,Sai quy cách,Soát vị trí lằn ở tấm đầu đơn,2,
+TS-18,Tổ sóng,"Cán lằn, xả biên",Lằn nứt / quá sâu,Gấp bị nứt mặt giấy,Lằn sâu; giấy khô giòn,Tại máy,Loại bỏ,Lỗi khác,Chỉnh độ sâu lằn theo giấy,1,
+TS-19,Tổ sóng,"Cán lằn, xả biên",Biên thiếu giấy (sáng biên),"Mép tấm lộ sóng, hụt lớp",Giấy chạy lệch; khổ giấy hẹp,Tại máy,Loại bỏ,Sáng biên,Canh giấy giữa; chọn khổ đủ,2,
+TS-20,Tổ sóng,Dao chặt,Sai chiều dài / khổ,Kích thước ngoài dung sai,Cài đặt dao; trượt giấy,Tại máy,Loại bỏ,Sai quy cách,Đo tấm đầu đơn,2,
+TS-21,Tổ sóng,Dao chặt,"Cắt xéo, không vuông",Tấm hình bình hành,Lệch dao; giấy chạy lệch,Tại máy,Loại bỏ,Lỗi khác,Kiểm vuông góc mỗi đơn,1,6
+TS-22,Tổ sóng,Dao chặt,"Mép xơ, bavia",Mép cắt tưa,Dao cùn,Tại máy,Chọn lại,Lỗi khác,Mài / thay dao theo lịch,1,
+TS-23,Tổ sóng,Dao chặt,Tấm rách khi chặt,Tấm bị xé ở đường cắt,Dao cùn; giấy ướt,Tại máy,Loại bỏ,Đổ rách,Thay dao; kiểm ẩm,2,
+TS-24,Tổ sóng,Ngoại quan,"Dính dầu mỡ, bẩn","Vết dầu, vết đen","Trục, xích rò dầu",Tại máy,Chọn lại,Lỗi khác,Vệ sinh máy đầu ca,1,
+TS-25,Tổ sóng,Chuyển đơn,"Tấm chuyển đơn, đầu cuộn",Tấm giữa hai đơn; đoạn đầu cuộn,Đổi đơn khi chạy liên tục,Tại máy,Hao hụt kỹ thuật,Lỗi khác,"Ghi riêng là hao hụt, không tính lỗi",3,
+TS-26,Tổ sóng,Xếp chồng,"Móp, gãy khi xếp","Góc móp, tấm gãy",Xếp chồng cao; ngã chồng,Vận chuyển - kho,Loại bỏ,Lỗi khác,Giới hạn chiều cao chồng,7,
+FX-01,Máy in Flexo,Tấm vào (khâu trước),Tấm sóng cong không nạp được,Kẹt ở bàn nạp,Tấm cong từ tổ sóng,Khâu trước,Ép phẳng hoặc loại,Sóng,Phản hồi tổ sóng; ủ tấm trước khi in,2,
+FX-02,Máy in Flexo,Tấm vào (khâu trước),"Tấm sóng bong lớp, dập",Phát hiện khi in,Lỗi tổ sóng,Khâu trước,Loại bỏ,Sóng,KCS kiểm tấm trước khi in,2,
+FX-03,Máy in Flexo,Tấm vào (khâu trước),Tấm sai kích thước,"Không vừa bản, lệch rãnh",Lỗi dao chặt,Khâu trước,Loại bỏ,Sóng,Đo tấm đầu đơn,2,
+FX-04,Máy in Flexo,"Mực, màu","In nhòe, lem","Chữ / hình loang, mờ biên",Mực loãng; áp lực in cao,Tại máy,Loại bỏ,Khác,Kiểm độ nhớt mực; giảm áp lực,1,2
+FX-05,Máy in Flexo,"Mực, màu","In mờ, thiếu mực","Màu nhạt, lấm tấm trắng",Thiếu mực; trục anilox bẩn,Tại máy,Loại bỏ,Khác,Vệ sinh anilox; châm mực đủ,1,1
+FX-06,Máy in Flexo,"Mực, màu",Đậm nhạt không đều,Màu lúc đậm lúc nhạt trên tấm,Trục mực không đều; tấm cong,Tại máy,Chọn lại,Khác,Chỉnh khe trục mực,1,
+FX-07,Máy in Flexo,"Mực, màu",Sai màu so mẫu,Màu khác mẫu duyệt,Pha mực sai; độ nhớt,Tại máy,Loại bỏ,Khác,Duyệt màu tờ đầu; lưu công thức mực,1,4
+FX-08,Máy in Flexo,"Mực, màu","Mực chưa khô, dính tấm khác",Vết mực ở mặt sau tấm kế,Sấy yếu; xếp chồng sớm,Tại máy,Chọn lại,Khác,Tăng sấy; chờ khô mới xếp,1,
+FX-09,Máy in Flexo,"Mực, màu","Chấm mực văng, vệt sọc",Chấm / vệt mực ngoài hình,"Trục mực, dao gạt mòn",Tại máy,Chọn lại,Khác,Thay dao gạt; vệ sinh trục,1,
+FX-10,Máy in Flexo,Bản in,"Ăn bông, bít chữ","Chữ nhỏ, mã vạch bị lấp",Bản bẩn; mực đặc,Tại máy,Loại bỏ,Khác,Lau bản giữa đơn,1,3
+FX-11,Máy in Flexo,Bản in,"Mất nét, đứt nét",Chi tiết bị mất,Bản mòn; áp lực thấp,Tại máy,Loại bỏ,Khác,Thay bản mòn,1,
+FX-12,Máy in Flexo,Bản in,"Bản hỏng, bong bản",Vết rách / mất mảng hình,Bản cũ; dán bản không chắc,Tại máy,Loại bỏ,Khác,Kiểm bản trước khi lên máy,1,
+FX-13,Máy in Flexo,Bản in,Sai nội dung bản,"Sai chữ, sai mã, thiếu chi tiết",Duyệt bản sai; lấy nhầm bản,Quản lý,Loại bỏ,Khác,So tờ đầu với mẫu duyệt,1,
+FX-14,Máy in Flexo,Vị trí in,Lệch hình so với tấm,"Hình lệch mép, lệch lằn",Canh bản sai; tấm trượt,Tại máy,Loại bỏ,In lệch,Canh tờ đầu,2,
+FX-15,Máy in Flexo,Vị trí in,Chồng màu lệch,Các màu không trùng nhau,Lệch bản giữa các đơn vị màu,Tại máy,Loại bỏ,In lệch,Canh chồng màu tờ đầu,2,
+FX-16,Máy in Flexo,Vị trí in,In ngược mặt / ngược chiều,Hình in sai mặt hoặc quay ngược,Đặt tấm sai,Tại máy,Loại bỏ,Khác,Đánh dấu chiều nạp,1,
+FX-17,Máy in Flexo,"Cấn, xẻ rãnh",Nhảy dao,Rãnh xẻ sai nhịp,Dao xẻ trượt; tấm trượt,Tại máy,Loại bỏ,Nhảy dao,"Kiểm dao xẻ, bàn nạp",2,
+FX-18,Máy in Flexo,"Cấn, xẻ rãnh","Rãnh lệch, sai kích thước",Rãnh lệch so với lằn,Cài đặt dao xẻ,Tại máy,Loại bỏ,Khác,Đo rãnh tấm đầu,1,5
+FX-19,Máy in Flexo,"Cấn, xẻ rãnh",Lằn cấn lệch / bể,Lằn sai vị trí hoặc nứt,Bánh cấn lệch; tấm khô,Tại máy,Loại bỏ,Khác,Canh bánh cấn,1,
+FX-20,Máy in Flexo,"Cấn, xẻ rãnh","Tai dán, góc cắt sai","Tai dán ngắn / dài, góc sai",Cài đặt dao góc,Tại máy,Loại bỏ,Khác,Soát tai dán tấm đầu,1,
+FX-21,Máy in Flexo,"Nạp, ra tấm","Kẹt tấm, móp, gãy góc","Tấm móp, gãy khi qua máy",Tấm cong; chỉnh nạp sai,Tại máy,Loại bỏ,Khác,Chỉnh bàn nạp,1,6
+FX-22,Máy in Flexo,"Nạp, ra tấm",Trầy xước mặt in,Vết xước trên hình in,"Bàn ra tấm, xếp chồng",Tại máy,Chọn lại,Khác,Lót bàn ra; xếp nhẹ tay,1,
+FX-23,Máy in Flexo,Chuẩn bị,"Tờ thử, canh màu",Tấm chạy thử đầu đơn,"Canh bản, canh màu",Tại máy,Hao hụt kỹ thuật,Thử máy,Ghi đúng ô Thử máy,3,
+FX-24,Máy in Flexo,Đếm,"Đếm dư / thiếu, dồn tấm",Số máy đếm khác số thật,Hai tấm qua một lần; cảm biến,Tại máy,Không phải lỗi,Khác,Soát cảm biến đếm,5,
+OF-01,Máy in Offset,Giấy vào,"Giấy cong, nhăn, gấp góc",Tờ không phẳng,Độ ẩm giấy; bảo quản,Nguyên liệu,Loại bỏ,Khác,Ủ giấy trong xưởng trước khi in,1,6
+OF-02,Máy in Offset,Giấy vào,Giấy co giãn,Lệch màu tăng dần theo chồng,Giấy hút ẩm,Nguyên liệu,Loại bỏ,Khác,Giữ ẩm xưởng ổn định,1,
+OF-03,Máy in Offset,Vị trí in,Chồng màu lệch,Các màu không trùng nhau,Lệch bản; giấy co giãn,Tại máy,Loại bỏ,In lệch,Canh chồng màu tờ đầu,2,
+OF-04,Máy in Offset,Vị trí in,"Lệch nhíp, lệch tay kê",Hình lệch so với mép giấy,"Chỉnh nhíp, tay kê sai",Tại máy,Loại bỏ,In lệch,"Kiểm nhíp, tay kê",2,
+OF-05,Máy in Offset,"Mực, nước","Dư nước: nhạt, lem","Màu nhạt, loang",Cân bằng mực – nước sai,Tại máy,Loại bỏ,Khác,Chỉnh nước theo tờ duyệt,1,
+OF-06,Máy in Offset,"Mực, nước",Thiếu nước: bẩn nền,Nền trắng bị mực bám,Nước ít; bản bẩn,Tại máy,Loại bỏ,Khác,Kiểm hệ thống nước,1,4
+OF-07,Máy in Offset,"Mực, nước",Đậm nhạt không đều,Màu khác nhau giữa các tờ,Mực không đều,Tại máy,Chọn lại,Khác,Đo mật độ màu định kỳ,1,1
+OF-08,Máy in Offset,"Mực, nước",Sai màu so tờ duyệt,Màu khác tờ duyệt,Pha mực; mực khác lô,Tại máy,Loại bỏ,Khác,So màu tờ đầu với tờ duyệt,1,
+OF-09,Máy in Offset,Ngoại quan,Dính mặt sau,Mực hằn sang tờ phía sau,Mực nhiều; chồng giấy sớm,Tại máy,Loại bỏ,Khác,Phun bột chống dính; chồng thấp,1,2
+OF-10,Máy in Offset,Ngoại quan,Đốm bụi (hickey),Chấm trắng / đốm có vòng,Bụi giấy; mực khô,Tại máy,Chọn lại,Khác,"Vệ sinh lô, bản",1,3
+OF-11,Máy in Offset,Ngoại quan,"Sọc, vệt",Vệt ngang / dọc trên hình,"Lô mực, lô nước mòn",Tại máy,Loại bỏ,Khác,Kiểm lô định kỳ,1,
+OF-12,Máy in Offset,Ngoại quan,Bóng ma (in đúp),Hình mờ lặp lại,Cao su lỏng; áp lực,Tại máy,Loại bỏ,Khác,"Kiểm cao su, áp lực",1,
+OF-13,Máy in Offset,Ngoại quan,"Trầy, xước mặt in",Vết xước,Đường giấy ra; xếp chồng,Tại máy,Chọn lại,Khác,Kiểm đường ra giấy,1,
+OF-14,Máy in Offset,Bản in,"Bản mòn, trầy bản","Mất chi tiết, vệt trên hình",Bản cũ; bụi,Tại máy,Loại bỏ,Khác,Thay bản theo số lượt,1,
+OF-15,Máy in Offset,Bản in,Sai nội dung bản,"Sai chữ, sai mã",Duyệt bản sai,Quản lý,Loại bỏ,Khác,So tờ đầu với mẫu duyệt,1,
+OF-16,Máy in Offset,"Phủ, cán màng (nếu có)","Bong màng, nhăn màng, bọt","Màng tách, nhăn, có bọt khí","Nhiệt, keo màng",Tại máy,Loại bỏ,Khác,"Chỉnh nhiệt, áp cán",1,
+OF-17,Máy in Offset,Nạp giấy,"Kẹt giấy, nạp đôi",Hai tờ cùng vào; tờ kẹt rách,Giấy dính tĩnh điện; cài đặt,Tại máy,Loại bỏ,Khác,Giũ giấy; chỉnh đầu hút,1,5
+OF-18,Máy in Offset,Chuẩn bị,"Tờ thử, canh màu",Tờ chạy thử đầu đơn,"Canh bản, canh màu",Tại máy,Hao hụt kỹ thuật,Thử máy,Ghi đúng ô Thử máy,3,
+BO-01,Máy bồi,Vào (khâu trước),Tấm sóng lỗi,"Tấm cong, bong, sai khổ",Lỗi tổ sóng,Khâu trước,Loại bỏ,Sóng,KCS kiểm tấm trước khi bồi,2,
+BO-02,Máy bồi,Vào (khâu trước),Tờ in lỗi,"Lệch màu, bẩn, sai màu",Lỗi máy in,Khâu trước,Loại bỏ,In,Chọn tờ trước khi bồi,2,
+BO-03,Máy bồi,Bồi,Lệch bồi,Tờ in lệch so với tấm sóng,Canh mép; tốc độ,Tại máy,Loại bỏ,Khác,Canh mép tờ đầu,1,1
+BO-04,Máy bồi,Bồi,"Bong bồi, không dính",Tờ in tách khỏi tấm,Thiếu keo; keo kém,Tại máy,Loại bỏ,Khác,"Kiểm lượng keo, độ nhớt",1,2
+BO-05,Máy bồi,Bồi,"Phồng rộp, bọt khí",Bọt khí dưới tờ in,Keo không đều; ép yếu,Tại máy,Loại bỏ,Khác,Chỉnh trục ép,1,3
+BO-06,Máy bồi,Bồi,Nhăn tờ in,Nếp nhăn trên mặt in,Tờ in cong; lực kéo,Tại máy,Loại bỏ,Khác,Ủ tờ in; chỉnh dẫn hướng,1,6
+BO-07,Máy bồi,Keo,Keo tràn mép / mặt in,"Vết keo trên mặt in, mép",Lượng keo nhiều,Tại máy,Chọn lại,Khác,Giảm keo; vệ sinh trục,1,4
+BO-08,Máy bồi,Keo,"Thiếu keo mép, hở mép",Mép tờ in vểnh lên,Trục keo không đều,Tại máy,Loại bỏ,Khác,Kiểm trục keo hai mép,1,
+BO-09,Máy bồi,Sau bồi,Cong vênh sau bồi,Tấm cong khi khô,Keo ẩm; chênh ẩm hai mặt,Tại máy,Ép phẳng hoặc loại,Khác,Ép chồng khi còn ẩm,1,5
+BO-10,Máy bồi,Sau bồi,Dập sóng do ép,"Sóng xẹp, tấm yếu",Ép quá tay,Tại máy,Loại bỏ,Khác,Chỉnh áp ép theo loại sóng,1,
+BO-11,Máy bồi,Sau bồi,Dính tấm khi xếp chồng,Tấm dính nhau,Keo chưa khô,Tại máy,Loại bỏ,Khác,Chờ khô; xếp so le,1,
+BO-12,Máy bồi,Thao tác,Bồi ngược mặt / ngược chiều,Hình in quay sai hướng,Đặt tờ sai,Tại máy,Loại bỏ,Khác,Đánh dấu chiều tờ,1,
+BO-13,Máy bồi,Ngoại quan,"Trầy, bẩn mặt in","Vết xước, dấu tay","Xếp, vận chuyển trong máy",Tại máy,Chọn lại,Khác,Găng tay; lót bàn,1,
+BO-14,Máy bồi,Chuẩn bị,Tấm canh máy,Tấm chạy thử đầu đơn,"Canh mép, canh keo",Tại máy,Hao hụt kỹ thuật,Khác,Ghi riêng là hao hụt,3,
+BE-01,Máy bế,Vào (khâu trước),Tấm sóng lỗi,"Tấm cong, bong lớp",Lỗi tổ sóng,Khâu trước,Loại bỏ,Sóng,KCS kiểm tấm trước khi bế,2,
+BE-02,Máy bế,Vào (khâu trước),Tờ in / tấm in lỗi,"Lệch màu, sai màu",Lỗi máy in,Khâu trước,Loại bỏ,In,Chọn tấm trước khi bế,2,
+BE-03,Máy bế,Bế,Bế không đứt,Phải xé tay,Khuôn cùn; áp lực thấp,Tại máy,Xé tay hoặc loại,Bế,Kiểm khuôn; chỉnh áp lực,2,
+BE-04,Máy bế,Bế,Bế lẹm vào hình,Đường bế ăn vào hình in,Canh khuôn sai; tấm co,Tại máy,Loại bỏ,Bế,Canh tờ đầu theo hình in,2,
+BE-05,Máy bế,Bế,Lệch bế so hình in,Hình lệch so với đường bế,"Tay kê, nhíp lệch",Tại máy,Loại bỏ,Bế,Kiểm tay kê,2,
+BE-06,Máy bế,Bế,"Mép xơ, bavia",Mép bế tưa,Dao khuôn cùn,Tại máy,Chọn lại,Bế,Thay dao khuôn,2,
+BE-07,Máy bế,Lằn,"Lằn cấn bể, nứt",Lằn nứt khi gấp,Lằn sâu; giấy khô,Tại máy,Loại bỏ,Bế,Chỉnh độ sâu lằn,2,
+BE-08,Máy bế,Lằn,"Lằn mờ, không gấp được",Gấp không theo lằn,Lằn nông; cao su lằn mòn,Tại máy,Loại bỏ,Bế,Thay cao su lằn,2,
+BE-09,Máy bế,Tách rác,Tách rác không sạch,Còn lề dính trên sản phẩm,Khuôn tách rác; cài đặt,Tại máy,Gỡ tay hoặc loại,Khác,Kiểm chốt tách rác,1,1
+BE-10,Máy bế,Tách rác,"Lỗ, cửa sổ không rơi rác",Rác kẹt trong lỗ,Dao lỗ cùn; thiếu cao su đẩy,Tại máy,Gỡ tay,Khác,Bổ sung cao su đẩy,1,2
+BE-11,Máy bế,Khuôn,"Khuôn hỏng, dao gãy",Đường bế đứt khúc,Khuôn mòn; va đập,Tại máy,Loại bỏ,Khác,Kiểm khuôn khi nhận và trả,1,5
+BE-12,Máy bế,Khuôn,"Cao su bung, dấu ép",Vết hằn cao su trên mặt,Cao su lão hoá,Tại máy,Chọn lại,Khác,Thay cao su định kỳ,1,
+BE-13,Máy bế,Khuôn,Lắp sai khuôn / sai vị trí,Bế sai hình hoặc sai chỗ,Lấy nhầm khuôn; ghi vị trí kệ sai,Quản lý,Loại bỏ,Khác,Soát mã khuôn với phiếu,1,
+BE-14,Máy bế,Nạp tấm,"Kẹt tấm, gãy góc",Tấm gãy khi vào máy,Tấm cong vênh,Tại máy,Loại bỏ,Khác,Ép phẳng tấm trước khi bế,1,3
+BE-15,Máy bế,Nạp tấm,Nạp đôi tấm,Hai tấm cùng vào,Tấm dính nhau,Tại máy,Loại bỏ,Khác,Giũ tấm,1,6
+BE-16,Máy bế,Ngoại quan,"Dập, hằn mặt in",Vết hằn trên mặt in,Áp lực quá cao,Tại máy,Chọn lại,Khác,Chỉnh áp lực vừa đủ,1,4
+BE-17,Máy bế,Đếm,Đếm đôi (nhịp),Số máy đếm gấp đôi số tờ,Cảm biến thấy cả nhíp và giấy,Tại máy,Không phải lỗi,Khác,Bật cảm biến nhíp (MES 2.0),5,
+BE-18,Máy bế,Chuẩn bị,Tấm canh khuôn,Tấm chạy thử đầu đơn,"Canh khuôn, áp lực",Tại máy,Hao hụt kỹ thuật,Khác,Ghi riêng là hao hụt,3,
+DA-01,Máy dán,Vào (khâu trước),Phôi lỗi từ bế,"Lằn bể, rác chưa tách",Lỗi máy bế,Khâu trước,Loại bỏ,Bế,Chọn phôi trước khi dán,2,
+DA-02,Máy dán,Vào (khâu trước),Lỗi in,"Lệch màu, sai màu",Lỗi máy in,Khâu trước,Loại bỏ,In,Chọn phôi trước khi dán,2,
+DA-03,Máy dán,Vào (khâu trước),Lỗi sóng,"Phôi cong, bong lớp",Lỗi tổ sóng,Khâu trước,Loại bỏ,Sóng,KCS kiểm phôi,2,
+DA-04,Máy dán,Dán,Bung mép dán,"Mép dán hở, không dính",Thiếu keo; keo khô nhanh,Tại máy,Dán lại hoặc loại,Khác,"Kiểm súng keo, nhiệt keo",1,1
+DA-05,Máy dán,Dán,Keo tràn,Keo dính ra ngoài mép,Lượng keo nhiều,Tại máy,Chọn lại,Khác,Giảm keo; chỉnh vị trí súng,1,2
+DA-06,Máy dán,Dán,"Keo chưa khô, bung khi xếp",Thùng bung sau khi bó,Ép chưa đủ thời gian,Tại máy,Dán lại,Khác,Tăng thời gian ép,1,
+DA-07,Máy dán,"Gấp, định hình",Dán so le (đuôi cá),Hai mép không thẳng hàng,Canh dẫn hướng; lằn sai,Tại máy,Loại bỏ,Định hình,Canh dẫn hướng tấm đầu,2,
+DA-08,Máy dán,"Gấp, định hình",Khe mép dán sai,Khe quá to hoặc quá nhỏ,Gấp lệch; kích thước phôi,Tại máy,Loại bỏ,Định hình,Đo khe tấm đầu,2,
+DA-09,Máy dán,"Gấp, định hình","Thùng xéo, không vuông",Thùng dựng lên bị lệch,Gấp không theo lằn,Tại máy,Loại bỏ,Định hình,Kiểm lằn phôi; chỉnh dây gấp,2,
+DA-10,Máy dán,"Gấp, định hình",Gấp ngược lằn,Gấp sai chiều lằn,Đặt phôi sai chiều,Tại máy,Loại bỏ,Định hình,Đánh dấu chiều nạp,2,
+DA-11,Máy dán,"Gấp, định hình","Gãy, nứt lằn khi gấp",Mặt giấy nứt ở lằn,Giấy khô; lằn sâu,Tại máy,Loại bỏ,Khác,Phản hồi khâu bế / sóng,1,6
+DA-12,Máy dán,Ngoại quan,Dính thùng vào nhau,Thùng dính khi ép bó,Keo tràn; chưa khô,Tại máy,Gỡ hoặc loại,Khác,Giảm keo; chờ khô,1,3
+DA-13,Máy dán,Ngoại quan,"Móp góc, trầy","Góc thùng móp, mặt trầy","Băng tải, bàn ép",Tại máy,Chọn lại,Khác,"Kiểm băng tải, thanh dẫn",1,4
+DA-14,Máy dán,Nạp phôi,"Kẹt phôi, nạp đôi",Phôi kẹt hoặc hai phôi cùng vào,"Phôi cong, dính nhau",Tại máy,Loại bỏ,Khác,Giũ phôi; chỉnh bàn nạp,1,5
+DA-15,Máy dán,"Đếm, bó",Đếm sai số trong bó,Bó thừa / thiếu thùng,Đếm tay; cảm biến,Tại máy,Không phải lỗi,Khác,Soát bộ đếm bó,5,
+DA-16,Máy dán,"Đếm, bó","Cột dây sai, bó lỏng",Bó bung khi vận chuyển,Máy cột dây; thao tác,Tại máy,Bó lại,Khác,Kiểm lực cột,1,
+DA-17,Máy dán,Chuẩn bị,Phôi canh máy,Phôi chạy thử đầu đơn,"Canh dẫn hướng, keo",Tại máy,Hao hụt kỹ thuật,Khác,Ghi riêng là hao hụt,3,
+CH-01,Chung mọi máy,"Vận chuyển, kho","Móp, ngã pallet","Hàng móp, gãy khi chuyển",Xe nâng; xếp chồng cao,Vận chuyển - kho,Loại bỏ,Khác,Quấn màng; giới hạn chồng,7,
+CH-02,Chung mọi máy,"Vận chuyển, kho","Ướt mưa, ẩm kho","Hàng mềm, loang",Kho dột; để ngoài trời,Vận chuyển - kho,Loại bỏ,Khác,Che chắn; kê cao,7,
+CH-03,Chung mọi máy,"Vận chuyển, kho","Mất, thất lạc",Thiếu số lượng không rõ lý do,Không có phiếu giao nhận,Vận chuyển - kho,Truy theo phiếu,Khác,Ký giao nhận giữa các khâu,7,
+CH-04,Chung mọi máy,Ngoại quan,"Bẩn dầu mỡ, dấu tay",Vết bẩn trên sản phẩm,Tay bẩn; máy rò dầu,Tại máy,Chọn lại,Khác,Găng tay; vệ sinh máy,1,
+CH-05,Chung mọi máy,Quản lý,"Lẫn đơn, dán nhầm phiếu",Hàng nằm ở đơn khác,Phiếu nhận dạng sai; xếp chung,Quản lý,Chuyển về đúng đơn,Khác,In phiếu nhận dạng cho từng pallet,6,
+CH-06,Chung mọi máy,Quản lý,KCS lấy mẫu kiểm,Mẫu lấy ra không trả về,Kiểm chất lượng,Quản lý,Không phải lỗi,Khác,Ghi số mẫu vào ghi chú,6,
+CH-07,Chung mọi máy,Quản lý,Mượn tấm / phôi sang đơn khác,"Đơn này thiếu, đơn kia dư",Bù cho đơn gấp,Quản lý,Không phải lỗi,Khác,Ghi rõ mượn sang đơn nào,6,
+CH-08,Chung mọi máy,Quản lý,Trả lại khâu trước,Tấm trả về tổ sóng / máy in,Không dùng hết; sai quy cách,Quản lý,Không phải lỗi,Khác,Ghi số trả về,6,
+CH-09,Chung mọi máy,Số liệu,"Hàng chưa chạy, tồn trước máy","Khâu trước giao, máy này chưa chạy hết",Đơn chạy dở; Chuyển ngày; Ngưng đơn,Quản lý,Không phải lỗi,Khác,Tính chênh theo phiếu khi đơn xong,4,
+CH-10,Chung mọi máy,Số liệu,Chênh do đơn vị đếm,Số hai khâu lệch nhau dù không mất,Tấm / nhịp / con / thùng; làm tròn,Quản lý,Không phải lỗi,Khác,Quy về cùng đơn vị trước khi so,5,

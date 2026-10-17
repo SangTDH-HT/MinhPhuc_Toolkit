@@ -1,0 +1,14 @@
+{
+  "name": "minhphuc-toolkit",
+  "description": "Kho skill nội bộ của Bao Bì Minh Phúc cho Claude Code.",
+  "owner": {
+    "name": "Nguyễn Hữu Sáng"
+  },
+  "plugins": [
+    {
+      "name": "minhphuc-toolkit",
+      "source": "./",
+      "description": "Kỹ thuật, máy móc, quy trình, KCS, bảo trì, hệ thống sản xuất và MP MES (phía người dùng) của Bao Bì Minh Phúc"
+    }
+  ]
+}

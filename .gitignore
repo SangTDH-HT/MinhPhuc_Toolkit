@@ -1,0 +1,29 @@
+# Tài liệu gốc tải về (bản quyền của bên thứ ba) — tải lại bằng scripts/tai_thu_vien.py
+thu-vien/
+library/
+
+# Bản dựng
+dist/
+out/
+*.pdf
+!templates/**/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Hệ điều hành, trình soạn thảo
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.swp
+
+# Không bao giờ đưa lên: tài khoản, mật khẩu, cấu hình máy
+*.env
+.env*
+secrets*
+tai-khoan*
+*.kdbx
